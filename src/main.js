@@ -1,4 +1,5 @@
 import './style.css';
+import('./earth.js').catch(() => { /* CSS globe remains available. */ });
 const icons={spark:'✧',leaf:'♧',arrow:'↗',plus:'＋'};
 const groups=[{id:'moments',name:'经历与瞬间',en:'MOMENTS',desc:'把平凡日子里的光，收藏起来。',symbol:'☼',color:'peach'},{id:'connections',name:'关系与连接',en:'CONNECTIONS',desc:'那些让生命变得柔软的人与事。',symbol:'♡',color:'sage'},{id:'growth',name:'爱好与成长',en:'GROWTH',desc:'保持好奇，慢慢成为喜欢的自己。',symbol:'✧',color:'lavender'}];
 const key='fusheng-v1';
